@@ -1,0 +1,169 @@
+header {
+    background-color: rgb(44, 43, 43); /* Change this to the color you want */
+    width: 100%;
+    flex-shrink: 0;
+    } 
+    .content {
+        margin: 20px;
+        padding: 20px;
+    }
+    .container {
+        margin-top: 0;
+    }
+    .blockquote {
+        background-position: center;
+        position: relative;
+        justify-content: center;
+
+    }
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .hidden-content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f1f1f1;
+    }
+    
+    .fade-in {
+        -ms-animation: fadeIn ease 3s;
+        -webkit-animation: fadeIn ease 3s;
+        -moz-animation: fadeIn ease 3s;
+        -o-animation: fadeIn ease 3s;
+        animation: fadeIn ease 3s;
+    }
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+    /* Other browser-specific keyframe animations omitted */
+    
+    
+.carousel-inner img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+.carousel-inner2 img {
+    max-width: 50%;  /* adjust according to your need */
+    height: auto;
+    margin: auto; /* horizontally centers the image if it's smaller than the container */
+    background-color: #F4A460;
+    border: 20px solid orange; /* reduced border size */
+    border-radius: 20%;
+}
+.blockquote-footer{
+    background-color: #f0f8ff;
+}
+p {
+    background-color: #F4A460;
+}
+.blockquote {
+    background-color: rgb(170, 170, 201);
+
+}
+.summary {
+    color: #333;
+}
+.beauty {
+    background-color: bisque;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.description {
+    margin: 20px;
+    color: #333;
+    margin-left: 25%;
+    margin-right: 300px;
+    background-color: #F4A460;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f8ff;
+    }
+    h1{
+        margin-left: 25%;
+        color: blue;
+        
+    }
+.offers{
+    margin-top: 100px;
+    margin-left: 25%;
+
+}
+#bookNowButton {
+	width: 250px;
+	margin-top: 50%;
+	padding: 10px 15px;
+	border-radius: 60px;
+	box-shadow: 0 0 20px transparent;
+	border: 2px solid red;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: cursive;
+	background-color: transparent;
+    margin-left: 45%;
+}
+#button:hover{
+	background-color: blue;
+	color: red;
+	transition: 0.5s;
+	box-shadow: 0 0 20px blue;
+}
+
+
+h2{
+    margin-left: 25%;
+    margin-top: 700px;
+    color: blue;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: gray;
+;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:  #F4A460;
+    
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    
+  }
+  h4{ 
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  p {
+    background-color: transparent;
+  }
+  .scrollable-section {
+    height: 200px; /* adjust as needed */
+    overflow-y: scroll;
+}
+
+    
+    
+  
